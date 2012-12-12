@@ -1,0 +1,71 @@
+Thtk2sdc
+v5
+r1
+cCheck dependencies
+cCompileC Build/Intermediates/htk2sdc.build/Debug/htk2sdc.build/Objects-normal/x86_64/main.o /Development/Research/Projects/htk2sdc/htk2sdc/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Development/Research/Projects/htk2sdc/Build/Products/Debug/htk2sdc normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000503F1B7700000000000000AA
+t1346313079
+s170
+
+N/Development/Research/Projects/htk2sdc/Build/Intermediates/htk2sdc.build/Debug/htk2sdc.build/Objects-normal/x86_64/htk2sdc.LinkFileList
+c0000000050B60E7F000000000000007A
+t1354108543
+s122
+
+N/Development/Research/Projects/htk2sdc/Build/Intermediates/htk2sdc.build/Debug/htk2sdc.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Development/Research/Projects/htk2sdc/Build/Products/Debug/htk2sdc
+t2
+s0
+
+N/Development/Research/Projects/htk2sdc/htk2sdc/main.cpp
+c0000000050B60D290000000000001E68
+t1354108201
+s7784
+i<string>
+i<cmath>
+i<iostream>
+i<fstream>
+i<algorithm>
+i"tclap/CmdLine.h"
+
+N/Development/Research/Projects/htk2sdc/htk2sdc/tclap/CmdLine.h
+c000000004DA09FEF00000000000036A2
+t1302372335
+s13986
+
+CBuild AST from /Development/Research/Projects/htk2sdc/htk2sdc/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5c3913ff4566b641^abe81bff4566b641^---0#1#0#--18"Check dependencies36"19FFA726-9D13-4010-B3FA-524022EF762C-
+
+CCompileC Build/Intermediates/htk2sdc.build/Debug/htk2sdc.build/Objects-normal/x86_64/main.o /Development/Research/Projects/htk2sdc/htk2sdc/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s375801343.119269
+e375801344.451638
+r1
+xCompileC
+xBuild/Intermediates/htk2sdc.build/Debug/htk2sdc.build/Objects-normal/x86_64/main.o
+x/Development/Research/Projects/htk2sdc/htk2sdc/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Development/Research/Projects/htk2sdc/htk2sdc/main.cpp74d31eff4566b641^349f73004666b641^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Development/Research/Projects/htk2sdc/htk2sdc/main.cpp0000000000000000^2555"CompileC Build/Intermediates/htk2sdc.build/Debug/htk2sdc.build/Objects-normal/x86_64/main.o htk2sdc/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Development/Research/Projects/htk2sdc    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Development/Research/Projects/htk2sdc/Build/Intermediates/htk2sdc.build/Debug/htk2sdc.build/htk2sdc-generated-files.hmap -I/Development/Research/Projects/htk2sdc/Build/Intermediates/htk2sdc.build/Debug/htk2sdc.build/htk2sdc-own-target-headers.hmap -I/Development/Research/Projects/htk2sdc/Build/Intermediates/htk2sdc.build/Debug/htk2sdc.build/htk2sdc-all-target-headers.hmap -iquote /Development/Research/Projects/htk2sdc/Build/Intermediates/htk2sdc.build/Debug/htk2sdc.build/htk2sdc-project-headers.hmap -I/Development/Research/Projects/htk2sdc/Build/Products/Debug/include -I/Development/Research/Projects/htk2sdc/htk2sdc -I/Development/Research/Projects/htk2sdc/Build/Intermediates/htk2sdc.build/Debug/htk2sdc.build/DerivedSources/x86_64 -I/Development/Research/Projects/htk2sdc/Build/Intermediates/htk2sdc.build/Debug/htk2sdc.build/DerivedSources -F/Development/Research/Projects/htk2sdc/Build/Products/Debug -MMD -MT dependencies -MF /Development/Research/Projects/htk2sdc/Build/Intermediates/htk2sdc.build/Debug/htk2sdc.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Development/Research/Projects/htk2sdc/Build/Intermediates/htk2sdc.build/Debug/htk2sdc.build/Objects-normal/x86_64/main.dia -c /Development/Research/Projects/htk2sdc/htk2sdc/main.cpp -o /Development/Research/Projects/htk2sdc/Build/Intermediates/htk2sdc.build/Debug/htk2sdc.build/Objects-normal/x86_64/main.o36"20152A72-8DE7-49D8-A319-35D6000C7768-
+
+CLd /Development/Research/Projects/htk2sdc/Build/Products/Debug/htk2sdc normal x86_64
+s375801344.458388
+e375801344.484655
+r1
+xLd
+x/Development/Research/Projects/htk2sdc/Build/Products/Debug/htk2sdc
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Link /Development/Research/Projects/htk2sdc/Build/Products/Debug/htk2sdc446b75004666b641^5a127c004666b641^---0#0#0#--736"Ld Build/Products/Debug/htk2sdc normal x86_64    cd /Development/Research/Projects/htk2sdc    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Development/Research/Projects/htk2sdc/Build/Products/Debug -F/Development/Research/Projects/htk2sdc/Build/Products/Debug -filelist /Development/Research/Projects/htk2sdc/Build/Intermediates/htk2sdc.build/Debug/htk2sdc.build/Objects-normal/x86_64/htk2sdc.LinkFileList -mmacosx-version-min=10.8 -stdlib=libc++ -o /Development/Research/Projects/htk2sdc/Build/Products/Debug/htk2sdc36"6F1D0F11-9FAD-4D52-8B86-4E3410FA2F6C-
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "readHTK(float*, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, int*, int*, unsigned short*, unsigned short*):main.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "dealingFileList(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;):main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "i*100/ *pnSamples">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "SDC[j]">
+            </PersistentString>
+            <PersistentString
+               value = "i/(*pnSamples)">
+            </PersistentString>
+            <PersistentString
+               value = "SDC[38]">
+            </PersistentString>
+            <PersistentString
+               value = "i%(*pnSamples)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "convertToSDC(int, int, int, int, float const*, int, int, unsigned short, unsigned short, float*, int*, int*, unsigned short*, unsigned short*):main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "i*N+j">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "getSDCatFrame(int, int, int, int, float const*, float*&amp;, int):main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "htk[i]">
+            </PersistentString>
+            <PersistentString
+               value = "i*N+j">
+            </PersistentString>
+            <PersistentString
+               value = "(i-frame)/P">
+            </PersistentString>
+            <PersistentString
+               value = "htk[2459];">
+            </PersistentString>
+            <PersistentString
+               value = "i%*psampSize">
+            </PersistentString>
+            <PersistentString
+               value = "sdc[i*N+j]">
+            </PersistentString>
+            <PersistentString
+               value = "t2[i][(i-frame)/P]">
+            </PersistentString>
+            <PersistentString
+               value = "i/ *psampSize">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

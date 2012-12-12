@@ -1,0 +1,217 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B8BBFEE1664E25000ED93D2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B8BBFED1664E25000ED93D2 /* main.cpp */; };
+		9B8BBFF01664E25000ED93D2 /* htk2sdc.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B8BBFEF1664E25000ED93D2 /* htk2sdc.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9B8BBFE71664E25000ED93D2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				9B8BBFF01664E25000ED93D2 /* htk2sdc.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9B8BBFE91664E25000ED93D2 /* htk2sdc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = htk2sdc; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8BBFED1664E25000ED93D2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9B8BBFEF1664E25000ED93D2 /* htk2sdc.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = htk2sdc.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B8BBFE61664E25000ED93D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B8BBFDE1664E25000ED93D2 = {
+			isa = PBXGroup;
+			children = (
+				9B8BBFEC1664E25000ED93D2 /* htk2sdc */,
+				9B8BBFEA1664E25000ED93D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B8BBFEA1664E25000ED93D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B8BBFE91664E25000ED93D2 /* htk2sdc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B8BBFEC1664E25000ED93D2 /* htk2sdc */ = {
+			isa = PBXGroup;
+			children = (
+				9B8BBFED1664E25000ED93D2 /* main.cpp */,
+				9B8BBFEF1664E25000ED93D2 /* htk2sdc.1 */,
+			);
+			path = htk2sdc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B8BBFE81664E25000ED93D2 /* htk2sdc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B8BBFF31664E25000ED93D2 /* Build configuration list for PBXNativeTarget "htk2sdc" */;
+			buildPhases = (
+				9B8BBFE51664E25000ED93D2 /* Sources */,
+				9B8BBFE61664E25000ED93D2 /* Frameworks */,
+				9B8BBFE71664E25000ED93D2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = htk2sdc;
+			productName = htk2sdc;
+			productReference = 9B8BBFE91664E25000ED93D2 /* htk2sdc */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B8BBFE01664E25000ED93D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "石 博天";
+			};
+			buildConfigurationList = 9B8BBFE31664E25000ED93D2 /* Build configuration list for PBXProject "htk2sdc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B8BBFDE1664E25000ED93D2;
+			productRefGroup = 9B8BBFEA1664E25000ED93D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B8BBFE81664E25000ED93D2 /* htk2sdc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B8BBFE51664E25000ED93D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8BBFEE1664E25000ED93D2 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9B8BBFF11664E25000ED93D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9B8BBFF21664E25000ED93D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9B8BBFF41664E25000ED93D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = /Development/Research/Projects/htk2sdc/htk2sdc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B8BBFF51664E25000ED93D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B8BBFE31664E25000ED93D2 /* Build configuration list for PBXProject "htk2sdc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8BBFF11664E25000ED93D2 /* Debug */,
+				9B8BBFF21664E25000ED93D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B8BBFF31664E25000ED93D2 /* Build configuration list for PBXNativeTarget "htk2sdc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8BBFF41664E25000ED93D2 /* Debug */,
+				9B8BBFF51664E25000ED93D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B8BBFE01664E25000ED93D2 /* Project object */;
+}
